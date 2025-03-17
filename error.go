@@ -11,14 +11,14 @@ func main(){
 		fmt.println("eitem not found")
 
 	}
+	var errorNotFound = errors.New("not found")
+	
 	fmt.Println(res)
+	func findItem(id int)(string error){
+		if id = 1{
+			return "", errors.New("error")
+		}
+		return "item Found",nil
+	}
 }
 
-var errorNotFound = errors.New("not found")
-
-func findItem(id int)(string error){
-	if id = 1{
-		return "", errors.New("error")
-	}
-	return "item Found",nil
-}swi

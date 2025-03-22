@@ -11,10 +11,17 @@ func main(){
 	angka[3] = 40
 	angka[4] = 50
 
-	// fmt.Println("isi aray angka :", angka[1])
+	fmt.Println(angka[0])
+	fmt.Println(angka[1])
+	fmt.Println(angka[2])
+	fmt.Println(angka[3])
+	fmt.Println(angka[4])
 
-	for i,v:= range angka{
-		fmt.Println(i,"isinya adalah",v)
+	var value = [3] int{
+		60,
+		50, //<-
+
 	}
 
+	fmt.Println(value)
 } 
